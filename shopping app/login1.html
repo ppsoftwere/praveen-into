@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        .header{
+            color: rgb(208, 55, 255);
+            font-size: 20px;
+            margin: auto;
+            height: 50px;
+            background-color:#aed581 ;
+            margin-bottom: 50px;
+            border-radius: 5px;
+        }
+        .continer{
+            border: 0px solid;
+            margin: auto;
+            height: 566px;
+            width: auto;
+            padding: 5px;
+            background-image: url("images/loginpageBG.jpg")
+        
+        }
+        .loginpage{
+            border: 1px solid;
+            margin: auto;
+            height: 400px;
+            width: 350px;
+            border-radius: 50px;
+            text-align: center;
+            margin-top: 123px;
+            position: absolute;
+            right: 171px;
+            background-color:  lightgrey;
+            
+        }
+        h3{
+            font-size: 29px;
+        }
+        ul{
+            font-size: 20px;
+            text-align: left; 
+        }
+        
+        li{
+            list-style: none;
+        }
+        .xb{
+            text-align: center;
+        }
+        .btn:hover{
+            background-color: rgb(0, 17, 255);
+            color: #fff;
+        }
+        .btn{
+            background-color: orange;
+            border: 1px solid;
+            border-radius: 5px;
+            font-weight: bold;
+            padding: 1px;
+        }
+        .menu{
+            float: right;
+            margin-right: 99px;
+            font-weight: bold;
+            text-decoration: none;
+            margin-top: -33px; 
+            color: #fff; 
+        }
+        .menu:hover  {
+         
+          background-color: pink;
+          text-decoration: none;  
+        }
+        .for:hover{
+            background-color: rgb(204, 0, 255);
+        }
+        .New:hover{
+            background-color: rgb(0, 255, 200);
+            border-radius: 10px;
+        }
+        .user{
+            border: 2px;
+            text-align: center;
+            border-radius: 10px;
+            margin: auto;
+            background-color: orange;
+            width: 190px;
+            font-weight: bold;
+        
+        }
+        .user :hover {
+            color: #fff;
+            background-color: blue;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        .home{
+            padding-left: 20px;
+        }
+       .header,
+        h1{
+            margin: -5px -5px 0 -5px;
+            padding-left: 21px;
+            
+        }
+        .usericon{
+            width: 87px;
+            height: 82px;
+            border-radius: 50%;
+            position: absolute;
+            top: -58px;
+            left: 136px;
+        }
+        .fotter{
+            text-align: center;
+            height: 50px;
+            background-color:#aed581 ;
+            margin-top: 529px;
+            border-radius: 5px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        @media only screen and (max-width:500px){
+            body{
+                width: 100%;
+                height: 100%; 
+            }
+            .continer
+            .header
+            .menu
+            .home{
+                width: 100%;
+                height: 100%;
+            } 
+            .loginpage{
+                margin-right: -165px;
+            }
+        }
+        @media only screen and (min-width:700px){
+            .continer{
+                width: 100%;
+                height: 100%; 
+                background-color: aqua; 
+            }
+            .header
+            .menu
+            .home{
+                width: 100%;
+                height: 100%;
+            }  
+        }
+      
+       
+       
+    </style>
+</head>
+<body>
+    <div class="continer">
+        <div class="header"><h1>shoping mall</h1>
+            <div class="menu">
+               <a href="file:///C:/Users/prave/OneDrive/Desktop/myproject/login1.html" class="home">HOME</a>
+               <a href="file:///C:/Users/prave/OneDrive/Desktop/myproject/contect.html" class="home">ABOUT</a>
+               <a href="contect"class="home">CONTECT</a>
+            </div>
+        </div>
+        <div  class="loginpage"> <h3>Log In</h3>
+            <img src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png" class="usericon">
+             <ul>
+                <li>Enter User Name: 
+               <input type="text" placeholder="user name">
+                </li>
+                <li>Enter password: 
+                    <span><input type="password" maxlength="8" placeholder="password"></span>
+                </li>
+                <li class="xb"><br>
+               <a href="file:///C:/Users/prave/OneDrive/Desktop/myproject/store.html" class="btn">log in</a>
+                </li>
+                <li><br>
+                    <a href="file:///C:/Users/prave/OneDrive/Desktop/myproject/forgetpassword.html">Forget Password?</a>
+                </li><br>
+                <div class="user"><li>
+                   <a href="file:///C:/Users/prave/OneDrive/Desktop/myproject/create_new_account.html">Create New account</a>
+                </li></div>
+                    
+             </ul>
+        </div>
+        <div class="fotter">copyright@123</div>
+    </div>
+    
+    
+</body>
+</html>
